@@ -52,26 +52,26 @@ if (currencySelect.value =="bitcoin"){
 
 function changeCurrency(){
     const currencyName = document.getElementById("currency-name")
-    const currencyImage = document.getElementsByClassName(".currency-img")
+    const currencyImage = document.querySelector(".currency-img")
 
     if (currencySelect.value == "dolar"){
         currencyName.innerHTML= "Dólar americano"
-        currencyImage.src ="./assets/dolar.png"
+        currencyImage.src ="./dolar.png"
     }
 
     if (currencySelect.value == "euro"){
         currencyName.innerHTML= "Euro"
-        currencyImage.src ="./assets/euro.png"
+        currencyImage.src ="./euro.png"
     }
 
     if (currencySelect.value == "libra"){
         currencyName.innerHTML= "Libra"
-        currencyImage.src ="./assets/libra.png"
+        currencyImage.src ="./libra.png"
     }
 
     if (currencySelect.value == "bitcoin"){
         currencyName.innerHTML= "bitcoin"
-        currencyImage.src ="./assets/bitcoin.png"
+        currencyImage.src ="./bitcoin.png"
     }
 
     convertValues()
