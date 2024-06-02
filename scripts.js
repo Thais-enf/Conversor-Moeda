@@ -28,7 +28,7 @@ if (currencySelect.value =="euro"){
     }).format(inputCurrencyValue/euroToday)
 }
 
-if (currencySelect.value =="Libra"){
+if (currencySelect.value =="libra"){
     currencyvalueToConverted.innerHTML = new Intl.NumberFormat("en-GB",{
         style: "currency",
         currency:"GBP"
@@ -36,7 +36,7 @@ if (currencySelect.value =="Libra"){
 }
 
 if (currencySelect.value =="bitcoin"){
-    currencyvalueToConverted.innerHTML = new Intl.NumberFormat("pt-BTC",{
+    currencyvalueToConverted.innerHTML = new Intl.NumberFormat("en-BT",{
         style: "currency",
         currency:"BTC"
     }).format(inputCurrencyValue/bitcoinToday)
